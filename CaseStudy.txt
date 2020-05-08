@@ -1,7 +1,7 @@
 #########################################################################################
 Case Study - Deployment of Java based application using packer, terraform and yaml pipeline
 ##########################################################################################
-
+--edit
 1.Create a Azure DevOps Organisation / Or use existing personal one.
 2.Create a Public project.
 3.Create Service connection using below service principal.
