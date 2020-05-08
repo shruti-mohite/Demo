@@ -1,0 +1,27 @@
+#########################################################################################
+Case Study - Deployment of Java based application using packer, terraform and yaml pipeline
+##########################################################################################
+
+1.Create a Azure DevOps Organisation / Or use existing personal one.
+2.Create a Public project.
+3.Create Service connection using below service principal.
+4.Create Variable group
+5.Create a Azure key vault to store secrets and link it to Variable group.
+4.Deploy a java based application using Yaml pipeline.
+5.Pipeline should read secrets/passwords from keyvault.
+6.Create a Packer file to use the existing image from shared image gallery
+and have provisioner section install tomcat and deploy java based application
+7. Pipeline should deploy infrastructure using terraform.
+
+##################################################
+Service Principal Details
+##################################################
+Display name: MCS-ServicePrincipal
+Application (client) ID: 04099276-324c-4dfb-b1be-67b5d7eb3a64
+Directory (tenant) ID: 1e23c171-767a-4917-bde0-04af3803d866
+Client Secret : 9w6hst_s1Gkde@cuH.w:pMhyQXtHdbc9
+Subscription ID: 1a8fbabd-ee2b-41b7-836c-494c91c09496
+Subscription name: Microsoft Azure Enterprise
+
+
+
